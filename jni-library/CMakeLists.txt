@@ -24,11 +24,14 @@ include_directories(
 # Library name
 set(LIBRARY_NAME "nativelibrary")
 
+# Source file directory
+set(SOURCE_DIR "${CMAKE_SOURCE_DIR}/src/main/cpp")
+
 # Library type
 if(PLATFORM STREQUAL "windows")
-    add_library(${LIBRARY_NAME} SHARED NativeLibrary.cpp)
+    add_library(${LIBRARY_NAME} SHARED ${SOURCE_DIR}/NativeLibrary.cpp)
 else()
-    add_library(${LIBRARY_NAME} SHARED NativeLibrary.cpp)
+    add_library(${LIBRARY_NAME} SHARED ${SOURCE_DIR}/NativeLibrary.cpp)
 endif()
 
 # Platform-specific settings

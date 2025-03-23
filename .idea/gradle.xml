@@ -8,6 +8,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/jni-demo" />
+            <option value="$PROJECT_DIR$/jni-library" />
           </set>
         </option>
       </GradleProjectSettings>

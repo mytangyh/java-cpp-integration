@@ -1,5 +1,4 @@
 #include "NativeLibrary.h"
-#include "com_example_NativeLibrary.h"
 #include <string>
 #include <cstring>
 
